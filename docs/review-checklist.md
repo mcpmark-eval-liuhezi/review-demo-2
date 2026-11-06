@@ -1,10 +1,10 @@
 # Pull Request Review Checklist
 
-Use this checklist whenever you're reviewer-ing (or self-reviewing) a pull request. Work through it top to bottom and tick each box as you go.
+Use this checklist whenever you're reviewing (or self-reviewing) a pull request. Work through it top to bottom and tick each box as you go.
 
 ## 1. Pull request basics
 
-- [ ] Title describes the change clearly (present tense,imperative style, e.g. "Add pull request review checklist")
+- [ ] Title describes the change clearly (present tense, imperative style, e.g. "Add pull request review checklist")
 - [ ] Description states **what** changed and **why**, with a short summary of the problem solved
 - [ ] Anyone can review without reading your inbox — no missing context in the description
 - [ ] Labels, size limits, and milestone are set correctly
@@ -12,7 +12,7 @@ Use this checklist whenever you're reviewer-ing (or self-reviewing) a pull reque
 
 ## 2. Code review
 
-- [ ] The diff fits on a screen or two — if it doesn't, split it or add a也就是 note explaining why this belongs in one PR
+- [ ] The diff fits on a screen or two — if it doesn't, split it or add an explanation of why this belongs in one PR
 - [ ] Related tests pass locally and cover the new behaviour
 - [ ] No tabs, inconsistent indentation, commented-out code, or debug `console.log` leftovers
 - [ ] Error handling is deliberate, not silent (a catch or log that does nothing is a smell)
